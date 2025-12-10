@@ -1,34 +1,61 @@
+# 🩺 Medical Dataset Explorer
+
+An extended version of the amazing [beamandrew/medical-data](https://github.com/beamandrew/medical-data) repository.
+
+This fork turns the original curated list into a **practical toolkit** for students and practitioners working with medical data:
+
+- A structured CSV of selected datasets
+- A Python command-line search utility
+- Interactive **Streamlit web app** for exploring datasets
+- Hands-on **EDA + ML notebooks** for classification and regression
+
+---
+
 ## Fork Notice / My Contributions
 
 This repository is a fork of the excellent curated list by [beamandrew/medical-data](https://github.com/beamandrew/medical-data).
 
-I (Prutha) extended this project with:
+I extended this project with:
 
-- Additional recent medical datasets (2020–2025) organized by task and modality
-- A searchable CSV of dataset metadata
-- Python utility script to filter datasets by disease, modality, and data size
-- Improved documentation and structure for easier navigation by students and ML practitioners
+- 🗂 **Structured metadata** in `data/datasets.csv`  
+  - Selected datasets organized by modality, task, disease and year.
+- 🐍 **Python search utility** in `tools/search_datasets.py`  
+  - Filter datasets by modality, task, disease keyword and year range.
+- 📊 **Machine Learning notebooks** in `notebooks/`  
+  - EDA + RandomForest baseline on the Breast Cancer Wisconsin dataset.  
+  - EDA + regression baselines (Linear & Ridge) on the Diabetes dataset.
+- 🌐 **Streamlit web app** in `app.py`  
+  - Interactive UI to browse, filter and download dataset metadata.
+- 📖 Improved documentation and project structure to make the list easier to use for students and ML practitioners.
 
-> Original credit: All initial curation work belongs to the original authors. This fork focuses on extending and tooling around the dataset list.
+> **Original credit:** All initial curation work and dataset descriptions belong to the original authors.  
+> This fork focuses on extending and tooling around the dataset list.
 
-## Usage
+---
 
-This fork adds a small tool to search curated medical datasets.
+## Project Overview
 
-1. Install Python 3.9+  
-2. Clone this repository:
-   ```bash
-   git clone https://github.com/Prutha-13/medical-data.git
-   cd medical-data
+### Features
 
-## Web App (Streamlit)
+- **Curated datasets** – medical imaging, EHR, national health data, UCI datasets and more (from upstream project).
+- **Dataset metadata CSV** – small, structured subset of key datasets for quick discovery.
+- **Search CLI** – filter datasets from the CSV via command line.
+- **EDA + ML notebooks** – show how to load, explore and model real medical data.
+- **Streamlit app** – GUI for non-technical users to explore datasets and export filtered lists.
 
-This fork includes an interactive Streamlit web app to explore the curated medical datasets.
+### Repository Structure
 
-Run locally:
-		```bash
-		pip install streamlit
-		streamlit run app.py
+```text
+medical-data/
+├─ data/
+│  └─ datasets.csv                  # Structured metadata for selected datasets
+├─ notebooks/
+│  ├─ breast_cancer_eda.ipynb       # Classification EDA + RandomForest baseline
+│  └─ diabetes_regression_eda.ipynb # Regression EDA + Linear/Ridge baselines
+├─ tools/
+│  └─ search_datasets.py            # Command-line search utility
+├─ app.py                           # Streamlit web app (Medical Dataset Explorer)
+└─ README.md                        # You are here 🙂
 
 
 # Medical Data for Machine Learning
