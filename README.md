@@ -43,6 +43,8 @@ I extended this project with:
 - **EDA + ML notebooks** – show how to load, explore and model real medical data.
 - **Streamlit app** – GUI for non-technical users to explore datasets and export filtered lists.
 
+### 🔗 Live demo: https://your-app-url.streamlit.app
+
 ### Repository Structure
 
 ```text
