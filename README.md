@@ -11,6 +11,16 @@ I (Prutha) extended this project with:
 
 > Original credit: All initial curation work belongs to the original authors. This fork focuses on extending and tooling around the dataset list.
 
+## Usage
+
+This fork adds a small tool to search curated medical datasets.
+
+1. Install Python 3.9+  
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/Prutha-13/medical-data.git
+   cd medical-data
+
 # Medical Data for Machine Learning
 This is a curated list of medical data for machine learning.  
 This list is provided for informational purposes only, please make sure you respect any and all usage restrictions for any of the data listed here.
