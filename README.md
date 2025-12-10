@@ -1,3 +1,16 @@
+## Fork Notice / My Contributions
+
+This repository is a fork of the excellent curated list by [beamandrew/medical-data](https://github.com/beamandrew/medical-data).
+
+I (Prutha) extended this project with:
+
+- Additional recent medical datasets (2020–2025) organized by task and modality
+- A searchable CSV of dataset metadata
+- Python utility script to filter datasets by disease, modality, and data size
+- Improved documentation and structure for easier navigation by students and ML practitioners
+
+> Original credit: All initial curation work belongs to the original authors. This fork focuses on extending and tooling around the dataset list.
+
 # Medical Data for Machine Learning
 This is a curated list of medical data for machine learning.  
 This list is provided for informational purposes only, please make sure you respect any and all usage restrictions for any of the data listed here.

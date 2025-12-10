@@ -1,0 +1,4 @@
+name,modality,task,disease,link,year,notes
+NIH ChestX-ray14,image,classification,thoracic disease,https://nihcc.app.box.com/v/ChestXray-NIHCC,2017,"Large-scale chest X-ray dataset"
+ISIC 2018,image,classification,skin cancer,https://challenge.isic-archive.com/data/,2018,"Dermoscopic images of skin lesions"
+MIMIC-III,tabular,time-series,ICU,https://mimic.physionet.org/,2016,"De-identified health data from ICU patients"
