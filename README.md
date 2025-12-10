@@ -21,6 +21,16 @@ This fork adds a small tool to search curated medical datasets.
    git clone https://github.com/Prutha-13/medical-data.git
    cd medical-data
 
+## Web App (Streamlit)
+
+This fork includes an interactive Streamlit web app to explore the curated medical datasets.
+
+Run locally:
+		```bash
+		pip install streamlit
+		streamlit run app.py
+
+
 # Medical Data for Machine Learning
 This is a curated list of medical data for machine learning.  
 This list is provided for informational purposes only, please make sure you respect any and all usage restrictions for any of the data listed here.
